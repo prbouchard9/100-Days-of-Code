@@ -1,0 +1,79 @@
+:root {
+  /* Coolors.co Generated Colors */
+  --outer-space-crayola: #283d3bff;
+  --skobeloff: #197278ff;
+  --champagne-pink: #edddd4ff;
+  --international-orange-golden-gate-bridge: #c44536ff;
+  --liver-organ: #772e25ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--champagne-pink);
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.container {
+  padding: 60px;
+}
+
+h1 {
+  color: var(--champagne-pink);
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+  color: var(--liver-organ);
+  font-size: 2.0rem;
+  font-weight: 800;
+}
+
+a {
+  color: var(--outer-space-crayola);
+}
+
+a:hover {
+  color: var(--skobeloff);
+}
+
+header {
+  background-color: var(--skobeloff);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+li {
+  margin: 15px 0;
+}
+
+li span {
+  margin-left: 15px;
+  font-size: 0.65rem;
+}
+
+.edits {
+  margin-left: 1rem;
+}
+
+.edit {
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 700px) {
+
+  h1,
+  h2 {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  .container {
+    padding: 30px;
+  }
+}
